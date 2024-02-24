@@ -175,12 +175,8 @@ class DotIndex:
             ignore_errors=self.__settings__["ignore_errors"]
         )
 
-    def __iadd__(self, other: Union['DotIndex', dict]) -> None:
-        if type(other) != type(self) and not isinstance(other, dict):
-            return NotImplemented
-
-        for i in other:
-            self[i] = other[i]
+    def __iadd__(self, other: Union['DotIndex', dict]) -> 'DotIndex':
+        return self + other
 
     def __lt__(self, other: Union['DotIndex', dict]) -> bool:
         if type(other) != type(self) and not isinstance(other, dict):
