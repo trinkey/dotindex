@@ -73,7 +73,7 @@ Creating the object
 
 Converting types
 - `iter(...)` - Returns all keys in alphabetical order
-- `str(...)` - Returns a string formatted like the `str(...)` value of a dict object, with a full stop (`"."`) at the start to show that it is a dotindex type. Example: `".{'foo': 'bar'}"`
+- `str(...)` - Returns a string formatted like the `str(...)` value of a dict object, with a full stop (`"."`) at the start to show that it is a DotIndex type. Example: `".{'foo': 'bar'}"`
 - `repr(...)` - Same as `str(...)`
 - `int(...)` - Returns the amount of keys in the object
 - `float(...)` - Same as `int(...)` except as a float type
