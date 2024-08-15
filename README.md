@@ -1,3 +1,6 @@
+> [!NOTE]  
+> This repository has been **migrated** to [git.gay](https://git.gay/trinkey/dotindex). The Github version will **no longer be maintained**.
+
 # DotIndex
 Allows you to use dot notation to index dicts, like how you can in javascript
 
